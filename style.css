@@ -14,17 +14,31 @@
     padding: 1rem;
 }
 .blok{
+    display: flex;
+    align-items: center;
     border: 1px solid black;
     border-radius: 3px;
     background: linear-gradient(rgb(148, 148, 148), rgb(255, 255, 255));
-    padding: 100px 100px;
-    width: 300px; 
+    width: 500px; 
 }
 
 .text{
-    position: absolute;
-    top: 0;
-    left: 0;
+    margin: 1rem;
+    padding: 10rem;
     border: 2px solid black;
     text-align: left;
+}
+
+
+.block2{
+    display: inline-block;
+
+
+}
+.img{
+    border: 2px solid black;
+}
+
+.rain{
+    border: 2px solid black;
 }
