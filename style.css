@@ -1,4 +1,4 @@
-.main{
+.main {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,39 +6,52 @@
     background-color: rgba(0, 0, 0, 0.918);
 }
 
-.border{
+.border {
     position: relative;
     border: 3px solid rgb(0, 0, 0);
     border-radius: 10px;
     background-color: rgb(114, 114, 114);
     padding: 1rem;
 }
-.blok{
+
+.blok {
     display: flex;
     align-items: center;
     border: 1px solid black;
     border-radius: 3px;
     background: linear-gradient(rgb(148, 148, 148), rgb(255, 255, 255));
-    width: 500px; 
+    width: 130vh;
+    height: 70vh;
 }
 
-.text{
+.text {
+    width: 43rem;
+    height: 28rem;
     margin: 1rem;
-    padding: 10rem;
+    padding-left: 5px;
     border: 2px solid black;
-    text-align: left;
+    bottom: 0px;
+    left: 0px;
+
+    input {
+        width: 42rem;
+    }
+
 }
 
 
-.block2{
+.block2 {
     display: inline-block;
-
-
-}
-.img{
-    border: 2px solid black;
 }
 
-.rain{
+.img {
     border: 2px solid black;
+    width: 7rem;
+    height: 7rem;
+}
+
+.rain {
+    border: 2px solid black;
+    width: 7rem;
+    height: 20rem;
 }

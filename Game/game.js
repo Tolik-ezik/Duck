@@ -1,10 +1,10 @@
 const dino = document.getElementById("dino");
 const cactus = document.getElementById("cactus");
-const a = (event) => {
-    if (event.code === "PAGE UP") {
-        a.classList.add("f") 
-    }
-};
+// const a = (event) => {
+//     if (event.code === "PAGE UP") {
+//         a.classList.add("f") 
+//     }
+// };
 
 
 document.addEventListener("keydown", function (event) {
